@@ -13,4 +13,4 @@ npm install
 2. Start Nodemon server at http://localhost:3000
 
 ```
-npm run start:dev
+npm start
