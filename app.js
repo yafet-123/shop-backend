@@ -21,7 +21,7 @@ app.use(bodyParser.urlencoded({extended:false}))
 app.use(bodyParser.json());
 // json data
 
-mongoose.connect('mongodb+srv://Yafet:yafet123@cluster0.fv6qplg.mongodb.net/?retryWrites=true&w=majority')
+mongoose.connect('mongodb+srv://databaseName:databasepassword@cluster0.fv6qplg.mongodb.net/?retryWrites=true&w=majority')
 app.use((req,res,next)=>{
 	res.header('Access-Control-Allow-Origin','*')
 	// it will allow the cors and * for all site but we can restrict it and set the headers
